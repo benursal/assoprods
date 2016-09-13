@@ -1,0 +1,71 @@
+/* CSS Document */
+body{text-align:center; background-image:url(file:///C|/xampp/htdocs/app2/images/background.gif)}
+body{text-align:-moz-center;}
+
+#wrapper{width:850px; margin:20px;}
+
+#header{}
+
+#logo{border:1px solid black; width:140px; float:left; height:150px; background-color:#FF3333}
+
+#banner{ border:1px solid black; height:150px; width:695px; margin-left:20px; background-color:#9595FF;}
+
+#menu{background-color:#CCCCCC; width:695px; margin-top:130px;} 	
+
+#content{border:0px solid black; height:850px; margin-top:10px; padding-bottom:0px; background-image:url(file:///C|/xampp/htdocs/app2/images/content.gif);
+margin-bottom:10px;}
+	#title{font-family:Verdana, Arial, Helvetica, sans-serif; color:#33FF66}
+	#title h3{padding:5px 0;}
+	
+#mainForm{border:0px solid black; width:780px; height:240px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+font-weight:bold; color:#000066; background-image:url(file:///C|/xampp/htdocs/app2/images/mainform.gif)}
+
+
+#subForm{border:1px solid black; width:780px; height:300px; margin-top:5px;}
+#headings{background-color:#99FF99; height:20px; color:#000066; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+padding-top:0px; text-align:left; font-weight:500}
+	#headings div{border-right:1px solid gray; height:30px; margin-left:0; float:left; padding-top:2px;}
+	
+	#item_no{padding:0 5px;}
+	#quantity{padding:0 8px; margin-left:0px}
+	#unit_measure{padding:0 11px;}
+	#description{padding:0 89px;}
+	#supp_price{padding:0 37px}
+	#unit_price{padding:0 37px}
+	#amount{padding:0 45px; border-right:1px solid white}
+	#actions{padding:0 8px; border-right:1px solid white}
+	
+#itemList{background-color:#CCCCCC; height:280px; overflow:auto;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+padding-top:0px; text-align:left; margin-top:1px;}
+
+	.items2 div{border-bottom:1px solid gray; height:45px; float:left; border-right:1px solid white; text-align:center; padding-top:10px;
+	background-color:#CCFFCC; border-right:1px solid gray}
+	.items div{border-bottom:1px solid gray; height:45px; float:left; border-right:1px solid white; text-align:center; padding-top:10px;
+	background-color:#FFFFFF; border-right:1px solid gray}
+	
+	.item_no_i{padding:5px 0; width:57px;}
+	.quantity_i{padding:5px 0; width:35px;}
+	.unit_measure_i{padding:5px 0; width:44px;}
+	.description_i{padding:5px 0; width:232px; overflow:auto}
+	.supp_price_i{padding:5px 0; width:115px;}
+	.unit_price_i{padding:5px 0; width:128px;}
+	.amount_i{padding:5px 0; border-right:1px solid white; width:134px; font-weight:bold;}
+	.actions_i{padding:5px 0; width:56px; border-right:1px solid white;}
+	.actions_i a{text-decoration:none; font-size:14px; font-weight:bold;}
+	.actions_i a:link, a:visited{color:darkblue;}
+	.actions_i a:hover, a:active{color:red;}
+		
+#totalAmountDiv{width:745px; margin-top:2px; text-align:left; padding:10px 0;font-family:Verdana, Arial, Helvetica, sans-serif; 
+font-size:12px; color:white; text-align:right }	
+#totalAmountDiv td{font-size:14px; padding-left:5px; padding-right:22px;}
+
+#total{padding:5px; width:630px; text-align:left; padding-left:25px; font-weight:bold}
+
+#buttons{margin-top:15px;}
+
+#footer{height:5px; border:0px solid black; height:40px; margin-top:5px; 
+background-image:url(file:///C|/xampp/htdocs/app2/images/footer.gif)}
+
+#list{margin-top:40px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px}
+#list th{padding:10px; background-color:#003300; color:white}
+#list td{padding:4px; background-color:}

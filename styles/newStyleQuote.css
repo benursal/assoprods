@@ -1,0 +1,103 @@
+/* CSS Document */
+body{text-align:center; background-image:url(file:///C|/xampp/htdocs/app2/images/background.gif)}
+body{text-align:-moz-center;}
+
+#deleteMsg{font-family:Arial, Helvetica, sans-serif; background-color:#CC0000; color:white; width:380px; padding:10px;
+border:2px solid orange}
+
+#msg{font-family:Arial, Helvetica, sans-serif; background-color:#CC0000; color:white; width:380px; padding:10px;
+border:2px solid orange}
+
+#wrapper{width:850px; margin:20px;}
+
+#header{}
+
+#logo{border:1px solid black; width:140px; float:left; height:150px; background-color:#FF3333}
+
+#banner{ border:1px solid black; height:150px; width:800px; margin-left:20px; background-color:#9595FF; 
+background-image:url("../images/letterHead.gif")}
+
+#menu{background-color:transparent; width:695px; margin-top:130px; margin-left:100px;} 	
+
+#content{border:0px solid black; height:700px; margin-top:10px; padding-bottom:20px; background-image:url(file:///C|/xampp/htdocs/app2/images/content.gif)}
+	#title{font-family:Verdana, Arial, Helvetica, sans-serif; color:#33FF66}
+	#title h3{padding:5px 0;}
+	
+#mainForm{border:0px solid black; width:780px; height:240px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+font-weight:bold; color:#000066; background-image:url(file:///C|/xampp/htdocs/app2/images/mainform.gif)}
+	#mainForm input, select{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;}
+
+#subForm{border:1px solid black; width:780px; height:300px; margin-top:5px;}
+#headings{background-color:#006600; height:20px; color:white; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+padding-top:0px; text-align:left}
+	#headings div{border:1px solid white; height:30px; margin-left:0; float:left; padding-top:2px; border-right:0}
+	
+	#item_no{padding:0 5px;}
+	#quantity{padding:0 8px; margin-left:0px}
+	#unit_measure{padding:0 11px;}
+	#description{padding:0 85px;}
+	#supp_price{padding:0 27px}
+	#unit_price{padding:0 21px}
+	#amount{padding:0 45px; border-right:1px solid white}
+	#actions{padding:0 8px; border-right:1px solid white}
+	
+#itemList{background-color:#CCCCCC; height:280px; overflow:auto;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+padding-top:0px; text-align:left}
+
+	.items2 div{border-bottom:1px solid white; height:45px; float:left; border-right:1px solid white; text-align:center; padding-top:10px;
+	background-color:#3399FF}
+	.items div{border-bottom:1px solid white; height:45px; float:left; border-right:1px solid white; text-align:center; padding-top:10px;
+	background-color:#99CC99}
+	
+	.item_no_i{padding:5px 0; width:57px;}
+	.quantity_i{padding:5px 0; width:36px;}
+	.unit_measure_i{padding:5px 0; width:44px;}
+	.description_i{padding:5px 0; width:234px;}
+	.supp_price_i{padding:5px 0; width:95px;}
+	.unit_price_i{padding:5px 0; width:96px;}
+	.amount_i{padding:5px 0; border-right:1px solid white; width:134px; font-weight:bold;}
+	.actions_i{padding:5px 0; width:56px; border-right:1px solid white;}
+	.actions_i a{text-decoration:none; font-size:14px; font-weight:bold;}
+	.actions_i a:link, a:visited{color:darkblue;}
+	.actions_i a:hover, a:active{color:red;}
+
+.nkaTago{display:none;}
+	
+#itemList input, textarea{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;}
+	
+#totalAmountDiv{width:745px; margin-top:2px; text-align:left; padding:10px 0;font-family:Verdana, Arial, Helvetica, sans-serif; 
+font-size:12px; color:white; padding-left:430px;}	
+#total{padding:5px; width:630px; text-align:left; padding-left:25px; font-weight:bold}
+
+#buttons{margin-top:15px;}
+
+#footer{height:5px; border:0px solid black; height:40px; margin-top:5px; 
+background-image:url(file:///C|/xampp/htdocs/app/images/footer.gif)}
+
+.addButton{font-size:7px; color:#003399; font-family:Arial, Helvetica, sans-serif}
+
+#errorMsg{ border:2px solid darkblue; background-color:#009900; width:360px; padding:10px; color:#FFFFFF; font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px; position:absolute; top:330px; left:300px; display:none; z-index:2}
+
+#successLinks{margin-top:80px;}
+#successLinks a{color:darkblue;}
+#successLinks a:hover{text-decoration:overline; color:#99CCFF}
+
+#list{margin-top:40px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px}
+#list th{padding:10px; background-color:#003300; color:white}
+#list td{padding:4px; background-color:}
+
+#transDescript{text-align:left; padding-left:50px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF;
+margin-bottom:5px}
+
+#searchDiv{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#003333;}
+#addCompany{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold}
+#addCompany span{color:white; font-size:14px}
+
+#titolo{background-color:#006600; width:689px; padding:5px; color:#CCCCCC; font-weight:bold; letter-spacing:3px; margin-top:40px;
+font-family:Arial, Helvetica, sans-serif}
+
+#companyList{background-color:#FFFFFF; overflow:auto; width:700px; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+
+#discnt{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#CCCCCC}
+#discnt input{height:10px; font-size:12px}

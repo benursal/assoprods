@@ -1,0 +1,23 @@
+/* CSS Document */
+/* DIALOG BOX STYLES*/
+
+#addDialog{background-color:#FFFF99; width:480px; border:2px solid darkblue; text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif; position:absolute; left:250px; top:100px; z-index:2; display:none}
+
+#title2{background-color:#000099; color:white; font-weight:bold;  font-size:13px; padding:3px;text-align:left}
+
+#closeDialog{position:absolute; left:455px; bottom:140px}
+#closeDialog a{text-decoration:none; color:white; font-weight:bold; padding:2px 5px; border:1px solid white}
+#closeDialog a:link, a:visited{background-color:#FF0000}
+#closeDialog a:hover, a:active{background-color:#00CC66}
+
+#body{ padding:10px;}
+#body table{font-size:12px;}
+#body td{padding-bottom:8px;}
+
+.divider{width:15px;}
+
+#button{padding-bottom:20px;}
+
+#cover{z-index:1; width:1024px; height:940px; background-color:#999999; filter:alpha(opacity=80); position:absolute;left:0; top:0;
+display:none}

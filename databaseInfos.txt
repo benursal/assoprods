@@ -1,0 +1,44 @@
+// CREATE DATABASE
+CREATE DATABASE 'assoprods' ;
+//
+
+//CREATE TABLE 'po'
+
+CREATE TABLE `assoprods`.`po` (
+`poNum` VARCHAR( 10 ) NOT NULL ,
+`year` INT( 4 ) NOT NULL ,
+`date` DATE NOT NULL ,
+`refNo` VARCHAR( 10 ) NOT NULL ,
+`supplierID` VARCHAR( 10 ) NOT NULL ,
+`delivery` VARCHAR( 20 ) NOT NULL ,
+`terms` VARCHAR( 20 ) NOT NULL ,
+`attention` CHAR( 60 ) NOT NULL ,
+`transDescript` VARCHAR( 100 ) NOT NULL ,
+`totalAmount` FLOAT( 10 ) NOT NULL ,
+`prepared` VARCHAR( 40 ) NOT NULL ,
+PRIMARY KEY ( `poNum` ) 
+) ENGINE = MYISAM 
+//
+
+//CREATE 'supplier' table
+CREATE TABLE `assoprods`.`supplier` (
+`sID` VARCHAR( 10 ) NOT NULL ,
+`name` VARCHAR( 50 ) NOT NULL ,
+PRIMARY KEY ( `sID` ) 
+) ENGINE = MYISAM 
+//
+
+//CREATE 'orderline' table
+CREATE TABLE `assoprods`.`orderline` (
+`poNum` VARCHAR( 10 ) NOT NULL ,
+`olNum` INT( 5 ) NOT NULL ,
+`itemNo` VARCHAR( 10 ) NOT NULL ,
+`qty` INT( 4 ) NOT NULL ,
+`unit` CHAR( 10 ) NOT NULL ,
+`descript` VARCHAR( 100 ) NOT NULL ,
+`unitPrice` FLOAT( 10 ) NOT NULL ,
+`amount` FLOAT( 10 ) NOT NULL ,
+PRIMARY KEY ( `itemNo` ) 
+) ENGINE = MYISAM 
+//
+

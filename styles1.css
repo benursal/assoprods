@@ -1,0 +1,36 @@
+/* CSS Document */
+body{text-align:center;}
+#col1{float:left;width:500px;border:0px solid blue;padding-bottom:30px;}
+#col2{border:0px solid blue; width:300px;padding:0}
+#col2 td{width:100px;}
+#totalamount{padding:0 20px;}
+
+#headers{width:826px; margin-left:0}
+#headers div{float:left; border:1px solid black; text-align:center; padding: 5px 0; font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold}
+
+.orders{width:826px; margin-bottom:2px;margin-left:0; text-align: center}
+.orders div{float:left; border:1px solid black; text-align: center; padding:3px 0; font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold; height:60px; margin-left:0}
+
+#msg{text-align:center;width:819px;border:2px solid red;padding:10px 0;font-family:Verdana, Arial, Helvetica, sans-serif;color:#990000;
+font-size:12px; background-color: #FFCC99;}
+#msg a:link, a:visited{color:#003366;}
+#msg a:hover{color: #009900}
+
+#potbl{border:2px solid black;padding-left:20px; border-bottom:0}
+
+#edit a:link, a:visited{color:#003366;}
+#edit a:hover{color: #009900}
+
+#menu{margin-bottom:30px;}
+
+#navigate td{padding:0;font-family:Arial, Helvetica, sans-serif}
+#navigate a{display:block; background-color:#00FF66; border:1px solid darkgreen;color: #666666;}
+#navigate a:link, a:visited{text-decoration:none;}
+#navigate a:hover{background-color:#CCFFFF;}
+
+#printable td{border:1px solid black;}
+
+input.suppliers{width:60px; height:20px;font-size:12px; 
+	  background-color:darkgreen;color:white}
